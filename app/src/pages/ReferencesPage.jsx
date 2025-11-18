@@ -135,13 +135,6 @@ export default function ReferencesPage() {
         </Typography>
 
         <Divider sx={{ mt: 4 }} />
-
-        <Typography
-          variant="body2"
-          sx={{ mt: 4, textAlign: "center", color: "gray" }}
-        >
-          Last updated: 16 Nov 2025
-        </Typography>
       </Paper>
     </Box>
   );

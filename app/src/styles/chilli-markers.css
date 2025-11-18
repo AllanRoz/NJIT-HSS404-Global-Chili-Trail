@@ -2,7 +2,7 @@
   width: 16px;
   height: 16px;
   background-color: red;
-  background-image: none !important; /* <-- THIS IS THE FIX */
+  background-image: none !important;
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 0 0 6px rgba(255, 0, 0, 0.6);

@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import ChilliMap from "./ChilliMap";
 import { FixLeafletIcons } from "./leafletFix";
 import ReferencesPage from "./pages/ReferencesPage";
+import HistoryPage from "./pages/HistoryPage";
+import ChiliImageBox from "./components/ChiliImageBox";
 
 FixLeafletIcons();
 
@@ -59,14 +61,9 @@ function HomePage() {
             </Typography>
 
             {/* Chili Image */}
-            <img
-              src={selectedRegion.chiliImage}
-              alt="Chili Type"
-              style={{
-                width: "100%",
-                borderRadius: "12px",
-                marginBottom: "12px",
-              }}
+            <ChiliImageBox
+              name={selectedRegion.region + " Chili"}
+              image={selectedRegion.chiliImage}
             />
 
             <Typography variant="body1" sx={{ mt: 2 }}>
@@ -103,6 +100,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/references" element={<ReferencesPage />} />
+        <Route path="/history" element={<HistoryPage />} />
       </Routes>
     </BrowserRouter>
   );
@@ -121,6 +119,9 @@ function Navbar() {
         >
           🌶️ Global Chilli Trail
         </Typography>
+        <Button color="inherit" onClick={() => navigate("/history")}>
+          History
+        </Button>
         <Button color="inherit" onClick={() => navigate("/references")}>
           References
         </Button>
