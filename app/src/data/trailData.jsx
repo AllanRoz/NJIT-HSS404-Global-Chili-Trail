@@ -10,8 +10,9 @@ export const trailData = [
     culturalImpact:
       "Birthplace of all domesticated chili pepper species. Ancient civilizations cultivated multiple Capsicum types.",
     dish: "Mole",
-    chiliImage: "/images/chilies/mesoamerica.jpg",
-    dishImage: "/images/dishes/mole.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/mesoamerica.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/mole.jpg",
     flagCode: "mx",
   },
   {
@@ -24,8 +25,8 @@ export const trailData = [
     culturalImpact:
       "Chilies reshaped Thai cuisine and became central to nearly all regional dishes.",
     dish: "Tom Yum",
-    chiliImage: "/images/chilies/birdseye.jpg",
-    dishImage: "/images/dishes/tomyum.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/birdseye.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/tomyum.jpg",
     flagCode: "th",
   },
   {
@@ -38,8 +39,9 @@ export const trailData = [
       "Introduced by Portuguese explorers who brought chilies from Brazil.",
     culturalImpact: "India rapidly adopted chilies into curries and masalas.",
     dish: "Vindaloo",
-    chiliImage: "/images/chilies/indian-chili.jpg",
-    dishImage: "/images/dishes/vindaloo.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/indian-chili.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/vindaloo.jpg",
     flagCode: "in",
   },
   {
@@ -53,8 +55,8 @@ export const trailData = [
     culturalImpact:
       "The iconic mala flavor of Sichuan cuisine is defined by chilies and Sichuan peppercorn.",
     dish: "Mapo Tofu",
-    chiliImage: "/images/chilies/sichuan.jpg",
-    dishImage: "/images/dishes/mapotofu.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/sichuan.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/mapotofu.jpg",
     flagCode: "cn",
   },
   {
@@ -67,8 +69,8 @@ export const trailData = [
     culturalImpact:
       "Chilies entered through trade routes and became staples in Levantine and Anatolian cooking.",
     dish: "Shawarma",
-    chiliImage: "/images/chilies/middleeast.jpg",
-    dishImage: "/images/dishes/shawarma.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/middleeast.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/shawarma.jpg",
     flagCode: "tr",
   },
   {
@@ -81,8 +83,8 @@ export const trailData = [
     culturalImpact:
       "Portugal distributed chilies globally via maritime trade, spreading them to Africa and Asia.",
     dish: "Piri Piri Chicken",
-    chiliImage: "/images/chilies/piri.jpg",
-    dishImage: "/images/dishes/piripiri.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/piri.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/piripiri.jpg",
     flagCode: "pt",
   },
   {
@@ -95,8 +97,9 @@ export const trailData = [
     culturalImpact:
       "Spain was the first European nation to receive chilies from the New World and spread them across Europe.",
     dish: "Patatas Bravas",
-    chiliImage: "/images/chilies/guindilla.jpg",
-    dishImage: "/images/dishes/patatasbravas.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/guindilla.jpg",
+    dishImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/dishes/patatasbravas.jpg",
     flagCode: "es",
   },
   {
@@ -109,8 +112,9 @@ export const trailData = [
     culturalImpact:
       "Chilies thrived in African climates, becoming essential to local soups, stews, and sauces.",
     dish: "Jollof rice",
-    chiliImage: "/images/chilies/african-pepper.jpg",
-    dishImage: "/images/dishes/jollofrice.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/african-pepper.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/jollofrice.jpg",
     flagCode: "gh",
   },
   {
@@ -123,8 +127,9 @@ export const trailData = [
     culturalImpact:
       "Chilies became key in the berbere spice blend that defines Ethiopian cuisine.",
     dish: "Doro Wat",
-    chiliImage: "/images/chilies/berbere-chili.jpg",
-    dishImage: "/images/dishes/dorowat.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/berbere-chili.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/dorowat.jpg",
     flagCode: "et",
   },
   {
@@ -138,8 +143,8 @@ export const trailData = [
     culturalImpact:
       "Chilies transformed kimchi and Korean cuisine, giving rise to gochugaru peppers.",
     dish: "Kimchi Jjigae",
-    chiliImage: "/images/chilies/gochugaru.jpg",
-    dishImage: "/images/dishes/kimchijjigae.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/gochugaru.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/kimchijjigae.jpg",
     flagCode: "kr",
   },
   {
@@ -152,8 +157,8 @@ export const trailData = [
     culturalImpact:
       "Japan integrated chilies into shichimi togarashi and regional pickles.",
     dish: "Katsu Curry",
-    chiliImage: "/images/chilies/togarashi.jpg",
-    dishImage: "/images/dishes/katsucurry.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/togarashi.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/katsucurry.jpg",
     flagCode: "jp",
   },
   {
@@ -166,8 +171,8 @@ export const trailData = [
     culturalImpact:
       "Calabria became the Italian capital of chili culture, nduja defines local identity.",
     dish: "Nduja",
-    chiliImage: "/images/chilies/calabrian.jpg",
-    dishImage: "/images/dishes/nduja.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/calabrian.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/nduja.jpg",
     flagCode: "it",
   },
   {
@@ -181,8 +186,9 @@ export const trailData = [
     culturalImpact:
       "Home of the scotch bonnet pepper, crucial in jerk seasoning and Caribbean spice blends.",
     dish: "Jerk Chicken",
-    chiliImage: "/images/chilies/scotchbonnet.jpg",
-    dishImage: "/images/dishes/jerkchicken.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/scotchbonnet.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/jerkchicken.jpg",
     flagCode: "jm",
   },
   {
@@ -195,8 +201,9 @@ export const trailData = [
     culturalImpact:
       "Aji amarillo peppers are ancient and fundamental to Peruvian identity.",
     dish: "Ceviche",
-    chiliImage: "/images/chilies/ajiamarillo.jpg",
-    dishImage: "/images/dishes/ceviche.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/ajiamarillo.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/ceviche.jpg",
     flagCode: "pe",
   },
   {
@@ -210,8 +217,8 @@ export const trailData = [
     culturalImpact:
       "Hungary developed paprika culture, with sweet, hot, and smoky variations.",
     dish: "Goulash",
-    chiliImage: "/images/chilies/paprika.jpg",
-    dishImage: "/images/dishes/goulash.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/paprika.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/goulash.jpg",
     flagCode: "hu",
   },
   {
@@ -225,8 +232,8 @@ export const trailData = [
     culturalImpact:
       "Chilies helped create harissa, one of North Africa’s most famous chili pastes.",
     dish: "Harissa Tagine",
-    chiliImage: "/images/chilies/harissa.jpg",
-    dishImage: "/images/dishes/tagine.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/harissa.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/tagine.jpg",
     flagCode: "ma",
   },
   {
@@ -239,8 +246,9 @@ export const trailData = [
     culturalImpact:
       "Chilies contributed to chimichurri’s evolution into a national condiment.",
     dish: "Chimichurri Chicken",
-    chiliImage: "/images/chilies/argentinian.jpg",
-    dishImage: "/images/dishes/chimichurri.jpg",
+    chiliImage:
+      "/NJIT-HSS404-Global-Chili-Trail/images/chilies/argentinian.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/chimichurri.jpg",
     flagCode: "ar",
   },
   {
@@ -254,8 +262,8 @@ export const trailData = [
     culturalImpact:
       "Nigeria’s suya and pepper stews rely heavily on strong chili varieties.",
     dish: "Suya",
-    chiliImage: "/images/chilies/nigerian.jpg",
-    dishImage: "/images/dishes/suya.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/nigerian.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/suya.jpg",
     flagCode: "ng",
   },
   {
@@ -269,8 +277,8 @@ export const trailData = [
     culturalImpact:
       "Chilies became essential to Bicol Express, giving the coconut-based dish its signature heat and identity.",
     dish: "Bicol Express",
-    chiliImage: "/images/chilies/labuyo.jpg",
-    dishImage: "/images/dishes/bicolexpress.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/labuyo.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/bicolexpress.jpg",
     flagCode: "ph",
   },
   {
@@ -283,8 +291,8 @@ export const trailData = [
     culturalImpact:
       "Chilies shaped the deeper, rustic flavors of Chilean cazuela, adding warmth and regional character to the stew.",
     dish: "Cazuela Chicken",
-    chiliImage: "/images/chilies/merken.jpg",
-    dishImage: "/images/dishes/cazuela.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/merken.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/cazuela.jpg",
     flagCode: "cl",
   },
   {
@@ -298,8 +306,8 @@ export const trailData = [
     culturalImpact:
       "Chilies became essential to rendang, giving the dish its heat, color, and natural preservation.",
     dish: "Rendang",
-    chiliImage: "/images/chilies/sambal.jpg",
-    dishImage: "/images/dishes/rendang.jpg",
+    chiliImage: "/NJIT-HSS404-Global-Chili-Trail/images/chilies/sambal.jpg",
+    dishImage: "/NJIT-HSS404-Global-Chili-Trail/images/dishes/rendang.jpg",
     flagCode: "id",
   },
 ];
