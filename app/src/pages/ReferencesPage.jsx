@@ -3,8 +3,22 @@ import React, { useEffect } from "react";
 import { Box, Typography, Paper, Divider, Link } from "@mui/material";
 
 export default function ReferencesPage() {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
+
   return (
-    <Box sx={{ p: 4 }}>
+    <Box
+      sx={{
+        p: 4,
+        height: "calc(100vh - 64px)",
+        overflowY: "auto",
+        backgroundColor: "#242424",
+      }}
+    >
       <Paper sx={{ p: 4, maxWidth: "900px", mx: "auto" }} elevation={3}>
         <Typography variant="h3" sx={{ mb: 3, fontWeight: "bold" }}>
           📚 Works Cited (MLA Format)
