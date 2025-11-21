@@ -96,7 +96,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/NJIT-HSS404-Global-Chili-Trail">
       {/* Navbar */}
       <Navbar />
 
