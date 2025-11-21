@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/NJIT-HSS404-Global-Chili-Trail/'
+  base: '/NJIT-HSS404-Global-Chili-Trail'
 })
