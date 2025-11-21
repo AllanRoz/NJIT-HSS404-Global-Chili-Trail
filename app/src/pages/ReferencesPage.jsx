@@ -21,12 +21,7 @@ export default function ReferencesPage() {
     >
       <Paper sx={{ p: 4, maxWidth: "900px", mx: "auto" }} elevation={3}>
         <Typography variant="h3" sx={{ mb: 3, fontWeight: "bold" }}>
-          📚 Works Cited (MLA Format)
-        </Typography>
-
-        <Typography variant="body1" sx={{ mb: 4 }}>
-          Below are MLA-formatted citations for the sources used in the Global
-          Chilli Trail project.
+          📚 Works Cited
         </Typography>
 
         {/* 1. History Cooperative */}
@@ -39,7 +34,7 @@ export default function ReferencesPage() {
         </Link>
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “Origin of Chili.” <i>History Cooperative</i>,
-          historycooperative.org/origin-of-chili/. Accessed 16 Nov. 2025.
+          historycooperative.org/origin-of-chili/.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -55,7 +50,6 @@ export default function ReferencesPage() {
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           Lee, Jodi Ettenberg. “A Brief History of Chili Peppers.”{" "}
           <i>Legal Nomads</i>, www.legalnomads.com/history-chili-peppers/.
-          Accessed 16 Nov. 2025.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -70,8 +64,7 @@ export default function ReferencesPage() {
         </Link>
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “The History of Chilli Peppers.” <i>SpiceMad</i>,
-          spicemad.com/p/the-history-of-chilli-peppers.html. Accessed 16 Nov.
-          2025.
+          spicemad.com/p/the-history-of-chilli-peppers.html. 2025.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -89,7 +82,6 @@ export default function ReferencesPage() {
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “Chilli’s Complicated History.” <i>Bangkok Post</i>,
           www.bangkokpost.com/life/social-and-lifestyle/1672304/chillis-complicated-history.
-          Accessed 16 Nov. 2025.
         </Typography>
 
         <Divider sx={{ my: 4 }} />
@@ -100,7 +92,7 @@ export default function ReferencesPage() {
         </Link>
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “The History of Chili Peppers.” <i>Smithsonian Magazine</i>,
-          www.smithsonianmag.com/. Accessed 16 Nov. 2025.
+          www.smithsonianmag.com/.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -116,7 +108,6 @@ export default function ReferencesPage() {
           Ho, Elaine. “How Chillies Changed Thai Food.” <i>BBC Travel</i>, 20
           Feb. 2020,
           www.bbc.com/travel/article/20200220-how-chillies-changed-thai-food.
-          Accessed 16 Nov. 2025.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -130,7 +121,7 @@ export default function ReferencesPage() {
         </Link>
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “The History of Mole.” <i>Mexico News Daily</i>,
-          mexiconewsdaily.com/lifestyle/history-of-mole/. Accessed 16 Nov. 2025.
+          mexiconewsdaily.com/lifestyle/history-of-mole/.
         </Typography>
 
         <Divider sx={{ my: 3 }} />
@@ -145,7 +136,6 @@ export default function ReferencesPage() {
         <Typography variant="body2" sx={{ mt: 1, ml: 2 }}>
           “Thai Peppers.” <i>Chili Pepper Madness</i>,
           www.chilipeppermadness.com/chili-pepper-types/medium-hot-chili-peppers/thai-peppers/.
-          Accessed 16 Nov. 2025.
         </Typography>
 
         <Divider sx={{ mt: 4 }} />

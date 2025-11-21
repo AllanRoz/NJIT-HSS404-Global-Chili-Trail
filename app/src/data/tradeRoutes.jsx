@@ -4,21 +4,25 @@ export const tradeRoutes = [
   { fromId: 1, toId: 13 }, // Mesoamerica → Caribbean
   { fromId: 1, toId: 14 }, // Mesoamerica → Peru
   { fromId: 1, toId: 17 }, // Mesoamerica → Argentina
+  { fromId: 1, toId: 9 }, // Mesoamerica → Ethiopia
 
   // EUROPEAN COLONIAL ROUTES
   { fromId: 7, toId: 6 }, // Spain → Portugal
   { fromId: 7, toId: 12 }, // Spain → Italy
+  { fromId: 7, toId: 5 }, // Spain → Middle East
+  { fromId: 5, toId: 15 }, // Middle East → Hungary
 
   // PORTUGUESE GLOBAL CHILI DIFFUSION (main hub)
-  { fromId: 6, toId: 3 }, // Portugal → India (Goa)
+  { fromId: 6, toId: 3 }, // Portugal → India
   { fromId: 6, toId: 8 }, // Portugal → West Africa
   { fromId: 6, toId: 16 }, // Portugal → Morocco
   { fromId: 6, toId: 21 }, // Portugal → Indonesia
   { fromId: 6, toId: 19 }, // Portugal → Philippines
+  { fromId: 6, toId: 11 }, // Portugal → Japan
 
   // ASIAN OVERLAND + REGIONAL DIFFUSION
   { fromId: 3, toId: 2 }, // India → Thailand
-  { fromId: 3, toId: 4 }, // India → Sichuan, China
+  { fromId: 3, toId: 4 }, // India → China
   { fromId: 3, toId: 10 }, // India → Korea
 
   // NATIVE AMERICAS ROUTES

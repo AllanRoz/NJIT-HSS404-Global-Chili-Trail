@@ -20,18 +20,16 @@ import {
 
 export default function HistoryPage() {
   useEffect(() => {
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "auto";
-    };
+    document.body.style.overflow = "auto";
   }, []);
 
   return (
     <Box
       style={{
         backgroundColor: "#242424",
-        height: "calc(100vh - 64px)",
-        overflowY: "auto",
+        height: "auto",
+        minHeight: "calc(100vh - 64px)",
+        overflowY: "visible",
         padding: "40px 0",
       }}
     >
@@ -128,7 +126,7 @@ export default function HistoryPage() {
                   anthocyanins
                 </Typography>
                 <Typography color="#dddddd" mt={1}>
-                  Each color brings unique flavors — grassy greens, sweet reds,
+                  Each color brings unique flavors, grassy greens, sweet reds,
                   and smoky dark varieties.
                 </Typography>
               </CardContent>
@@ -165,10 +163,6 @@ export default function HistoryPage() {
                   • Trade routes & colonization <br />• Culinary naming
                   traditions
                 </Typography>
-                <Typography color="#dddddd" mt={1}>
-                  Example: A fresh poblano becomes an <strong>ancho</strong>{" "}
-                  when dried.
-                </Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -199,7 +193,7 @@ export default function HistoryPage() {
                 <Typography color="#dddddd" mt={1}>
                   • Genetics (variety SHU rating) <br />
                   • Sunlight, soil, and stress <br />
-                  • Ripeness — reds tend to be hotter <br />• Capsaicin in the
+                  • Ripeness, reds tend to be hotter <br />• Capsaicin in the
                   white pith (not seeds)
                 </Typography>
               </CardContent>

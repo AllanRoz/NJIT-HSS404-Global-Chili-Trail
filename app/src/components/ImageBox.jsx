@@ -23,12 +23,12 @@ export default function DishImageBox({ name, image }) {
           borderRadius: "8px",
         }}
       />
-      <Typography
+      {/* <Typography
         variant="subtitle2"
         sx={{ mt: 1, color: "white", fontWeight: "bold" }}
       >
         {name}
-      </Typography>
+      </Typography> */}
     </Box>
   );
 }

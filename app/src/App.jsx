@@ -121,7 +121,7 @@ function Navbar() {
           sx={{ flexGrow: 1, cursor: "pointer" }}
           onClick={() => navigate("/")}
         >
-          🌶️ Global Chilli Trail
+          🌶️ Global Chili Pepper Trail
         </Typography>
         <Button color="inherit" onClick={() => navigate("/history")}>
           History
