@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import {
-  Container,
   Grid,
   Box,
   Card,
@@ -26,13 +25,11 @@ export default function HistoryPage() {
     <Box
       style={{
         backgroundColor: "#242424",
-        height: "auto",
-        minHeight: "calc(100vh - 64px)",
-        overflowY: "visible",
-        padding: "40px 0",
+        height: "calc(100vh - 64px)",
+        overflowY: "auto",
       }}
     >
-      <Container maxWidth="lg">
+      <Box sx={{ p: 4, maxWidth: "1000px", mx: "auto" }} elevation={3}>
         <Typography
           variant="h3"
           align="center"
@@ -259,7 +256,7 @@ export default function HistoryPage() {
             </Card>
           </Grid>
         </Grid>
-      </Container>
+      </Box>
     </Box>
   );
 }
